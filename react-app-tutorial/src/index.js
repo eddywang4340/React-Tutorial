@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-const myFirstElement = <h1>Hello React!</h1>
+import MenuPage from './menupage.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myFirstElement);
+root.render(<MenuPage />);
